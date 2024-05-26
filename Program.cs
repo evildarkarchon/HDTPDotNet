@@ -18,9 +18,8 @@ namespace HDTPDotNet
             {
                 StartInfo = new ProcessStartInfo
                 {
-                    FileName = "robocopy",
+                    FileName = "robocopy.exe",
                     Arguments = $"{source} {destination} {options}",
-                    UseShellExecute = true,
                     CreateNoWindow = true
                 }
             };
